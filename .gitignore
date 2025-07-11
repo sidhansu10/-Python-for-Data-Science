@@ -5,3 +5,29 @@ anaconda3/
 AppData/
 Downloads/
 Documents/
+
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore data files (optional)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+
+# Ignore config files
+*.env
